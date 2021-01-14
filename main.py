@@ -13,7 +13,7 @@ class Main:
 		self.main.title("Image to PDF Converter")
 		self.main.geometry('200x200')
 
-		self.label = tk.Label(text="docx to pdf converter",fg="red",font=("Arial",12,"bold"))
+		self.label = tk.Label(text="Image to PDF converter",fg="red",font=("Arial",12,"bold"))
 		self.label.grid(pady=15)
 
 		self.upload_btn = tk.Button(self.main,fg="blue",text="Upload Gambar",command=self.upload)
